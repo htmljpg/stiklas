@@ -1,0 +1,22 @@
+.page__row--header {position: absolute; left: 0; top: 20px; width: 100%; z-index: 9991; transition: top .2s linear, background-color .2s linear, box-shadow .2s linear;}
+.page__row--header.fixed {position: fixed; top: 0; background-color: rgba(var(--white-color), 1); box-shadow: var(--header-fixed-box-shadow);}
+.page__row--nav {display: none;}
+.header {padding-top: 9px; padding-bottom: 12px; position: relative; z-index: 1;}
+.fixed .header {color: rgba(var(--dark-color), .6);}
+.header__cell--right {padding-top: 5px;}
+.header__hamburger {display: none;}
+.header__logo {margin-right: 52px;}
+.logo {display: inline-block; vertical-align: middle;}
+.logo__svg {height: 49px; width: 106px;}
+.header__nav {font-size: 18px; line-height: 1.3617; padding-top: 4px;}
+.header__nav-item {margin-right: 59px;}
+.header__nav-link {position: relative; z-index: 1; display: block; padding-top: 9px; padding-bottom: 9px;}
+.fixed .header__nav-link.active, .fixed .header__nav-link:hover {color: rgba(var(--dark-color), 1);}
+.header__nav-link::after {content: ''; display: block; height: 2px; background-color: rgba(var(--accent-color), 1); position: absolute; left: 0; right: 0; bottom: 0; z-index: -1; opacity: 0;}
+.header__nav-link:hover::after, .header__nav-link.active::after {opacity: 1;}
+.header__btn-wrapper {margin-right: 33px;}
+.header__btn {display: inline-block; vertical-align: middle; text-transform: lowercase; font-variant: small-caps; font-family: 'Roboto', sans-serif; font-weight: 500; padding: 5px 17px 5px 19px; font-size: 20px; line-height: 1.3620; color: rgba(var(--white-color), 1); border: 1px solid rgba(var(--white-color), 1); -ms-border-radius: 3px; border-radius: 3px;}
+.fixed .header__btn {border-color: rgba(var(--accent-color), 1); color: rgba(var(--accent-color), 1);}
+.fixed .header__btn:hover {background-color: rgba(var(--accent-color), 1); border-color: rgba(var(--accent-color), 1); color: rgba(var(--white-color), 1);}
+.header__btn:hover {background-color: rgba(var(--white-color), 1); color: rgba(var(--accent-color), 1); border-color: rgba(var(--white-color), 1);}
+.fixed .icon-wrapper--phone {fill: rgb(var(--dark-color)); color: rgb(var(--dark-color));}

@@ -1,0 +1,4 @@
+.page__row--intro {position: relative; z-index: 1;}
+.page__row--intro::before {content: ''; display: block; height: 100%; width: 100%; position: absolute; left: 0; top: 0; z-index: -1; background: linear-gradient(73.98deg, rgba(32, 33, 37, 0.9) 32.03%, rgba(39, 41, 50, 0) 100.56%);}
+.intro {height: 691px; padding-top: 269px; padding-left: 156px; padding-right: 156px;}
+.intro__desc {font-size: 36px; line-height: 1.1839; margin-bottom: 27px;}

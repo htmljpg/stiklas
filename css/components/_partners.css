@@ -1,0 +1,6 @@
+.section--partners {padding: 138px 0 133px;}
+.section__header--partners {margin-bottom: 81px;}
+.partners__items {margin-left: -23px; margin-right: -23px;}
+.partners__item {padding-left: 23px; padding-right: 23px;}
+.partners .swiper-slide {width: auto!important;}
+.partners__block {height: 78px; border: 1px solid rgba(var(--partners-border-color), .3); padding: 0 38.5px;}
