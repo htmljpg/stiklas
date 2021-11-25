@@ -1,0 +1,36 @@
+.grid-nav {margin-bottom: 32px;}
+.grid-nav__menu {overflow: auto;}
+.grid-nav__button {padding: 12px 20px; display: block; white-space: nowrap;}
+.grid-nav__button.is-checked {background-color: rgba(var(--dark-color), 1); color: rgba(var(--white-color), 1);}
+
+.grid {margin-left: -60px; margin-right: -60px; display: flex; flex-wrap: wrap; -ms-transition: height .5s ease; transition: height .5s ease;}
+.grid__sizer, .grid__item {width: 25%; padding-bottom: 30%; position: relative; z-index: 1;}
+.grid__item--width50 {width: 50%;}
+
+.grid__item--height20 {padding-bottom: 20%;}
+.grid__item--height36 {padding-bottom: 36%;}
+.grid__item--height32 {padding-bottom: 32%;}
+.grid__item--height31 {padding-bottom: 31%;}
+.grid__item--height16 {padding-bottom: 16%;}
+.grid__item--height46 {padding-bottom: 46%;}
+.grid__item--height30 {padding-bottom: 30%;}
+.grid__item--height15 {padding-bottom: 15%;}
+
+.grid__link {overflow: hidden; z-index: 50;}
+.grid__picture {-ms-transform: scale(1); transform: scale(1);}
+.grid__link:hover .grid__picture {-ms-transform: scale(1.05); transform: scale(1.05);}
+.grid__overlay {padding: 24px 60px; z-index: 5; background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.78) 100%), rgba(5, 7, 10, 0.55);}
+.grid__link:hover .grid__overlay, .grid__zoom {opacity: 0; visibility: hidden;}
+.grid__link:hover .grid__zoom {opacity: 1; visibility: visible;}
+.grid__title {margin-bottom: 6px;}
+.grid__time {letter-spacing: -.2px;}
+.zoom {position: absolute; top: 50%; left: 50%; height: 73px; width: 73px; z-index: 10; background: var(--zoom-background); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.icon__svg--zoom {height: 28px; width: 28px;}
+.grid__button-wrapper {flex: 1 1 auto;}
+.grid__button {background-color: rgba(var(--dark-color), 1); color: rgba(var(--white-color), 1); padding: 37px 53px;}
+.grid__button:hover {color: rgba(var(--white-color), 1);}
+.grid__button-span {line-height: .9;}
+.grid__button-span, .grid__button-icon {display: block;}
+.grid__button-icon {height: 27px; position: relative; z-index: 1; max-width: 173px; width: 100%; overflow: hidden;}
+.icon--grid-arrow {position: absolute; right: 0; top: 50%; margin-top: -4.5px;}
+.icon__svg--grid-arrow {height: 9px; width: 173px;}

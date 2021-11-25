@@ -1,1 +1,17 @@
-.contacts__wrapper {max-width: 420px; width: 100%; margin-left: auto; padding-left: 60px; padding-top: 126px; position: relative; z-index: 1; min-height: 697px;}
+.section__cell--contacts {min-height: 731px; max-width: 51.1%; flex: 1 1 51.1%;}
+.section__cell--form {position: relative; z-index: 1; padding-left: 85px; padding-right: 71px; padding-top: 168px; max-width: 48.9%; flex: 1 1 48.9%;}
+.section__cell--form::before {content: ''; height: 100%; width: 150vw; position: absolute; left: 0; top: 0; bottom: 0; z-index: -1; background-color: rgba(var(--white-color), .07); -webkit-backdrop-filter: blur(36px); backdrop-filter: blur(36px);}
+.contacts {font-size: 24px; padding: 150px 120px 100px 0;}
+.contacts__title {margin-bottom: 20px;}
+.contacts__desc {margin-bottom: 36px;}
+.phone-wrapper--indent {margin-bottom: 18px;}
+.phone--contacts {padding-left: 50px; display: inline-block; margin-bottom: 4px;}
+.icon--phone-contacts {left: 3px; top: -1px; z-index: -1;}
+.icon__svg--phone-contacts {height: 28px; width: 28px;}
+.email {padding-left: 52px;}
+.icon--email {left: 2px; top: 0;}
+.icon__svg--email {height: 22px; width: 28px;}
+.social {padding: 49px 3px;}
+.icon__svg--instagram {height: 28px; width: 28px; margin-right: 22px;}
+.icon__svg--facebook {margin-top: 5px; height: 35px; width: 19px; margin-right: 20px;}
+.icon__svg--youtube {height: 23px; width: 33px; margin-top: 3px;}
