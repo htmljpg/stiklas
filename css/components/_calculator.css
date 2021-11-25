@@ -1,4 +1,0 @@
-.calculator__form {max-width: 500px; width: 100%; margin-left: auto; margin-right: 143px; padding-top: 152px; padding-bottom: 158px; position: relative; z-index: 1;}
-.calculator__image {width: 535px; position: absolute; right: calc(100% + 202px); top: 200px; z-index: 1;}
-.calculator__image::before {content: ''; border: 2px solid rgba(var(--accent-color), .2); position: absolute; right: 150px; left: -150px; top: -71px; bottom: -38px; z-index: 100;}
-.calculator__title {margin-bottom: 103px;}
